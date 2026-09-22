@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#131417"/><stop offset="1" stop-color="#020203"/></linearGradient>
+  <radialGradient id="bgl" cx=".5" cy=".36" r=".64"><stop offset="0" stop-color="#fff" stop-opacity=".055"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9a9da4"/><stop offset=".5" stop-color="#f3f4f7"/><stop offset="1" stop-color="#75777d"/></linearGradient>
+  <linearGradient id="edge2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4c4d52"/><stop offset="1" stop-color="#303134"/></linearGradient>
+  <linearGradient id="feg" x1="0.05" y1="0" x2="0.85" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".4" stop-color="#f4f5f7"/><stop offset=".7" stop-color="#d6d8dd"/><stop offset="1" stop-color="#a3a5ac"/></linearGradient>
+  <filter id="sb" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10.2"/></filter>
+  <filter id="fsh" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="7.2" stdDeviation="11.3" flood-color="#000" flood-opacity=".65"/></filter>
+</defs>
+<rect width="512" height="512" rx="113" fill="url(#bgg)"/><rect width="512" height="512" rx="113" fill="url(#bgl)"/>
+<rect x="145.9" y="145.9" width="286.7" height="286.7" rx="46.1" fill="#000" opacity=".55" filter="url(#sb)"/>
+<rect x="145.9" y="145.9" width="286.7" height="286.7" rx="46.1" fill="#0b0c0e" stroke="url(#edge2)" stroke-width="5.6" opacity=".8"/>
+<rect x="130.6" y="122.9" width="286.7" height="286.7" rx="46.1" fill="#08090b" stroke="url(#edge)" stroke-width="8.7"/>
+<rect x="134.1" y="126.5" width="279.6" height="279.6" rx="39.2" fill="none" stroke="#000" stroke-width="3.1" opacity=".55"/>
+<g stroke="url(#edge)" stroke-width="5.9" stroke-linecap="round" opacity=".95">
+  <path d="M169.3 190.3h114.7"/>
+  <path d="M169.3 236.1h97.5"/>
+  <path d="M169.3 280.6h68.8"/>
+</g>
+<g filter="url(#fsh)" transform="translate(227.5 69.2) scale(2.0407)">
+  <path d="M6 136 C 9 122 14 112 22 104 C 17 101 14 96 13 90 C 22 91 29 88 34 82 C 28 80 25 75 24 69 C 33 70 41 66 46 59 C 40 57 37 52 36 46 C 46 46 54 41 59 33 C 53 31 50 26 49 20 C 60 19 70 12 76 2 C 84 16 89 33 87 49 C 85 66 76 80 63 90 C 52 98 39 104 28 113 C 20 120 12 128 6 136 Z" fill="url(#feg)" stroke="#82848b" stroke-width="0.6"/>
+  <path d="M10.0 132.0 L39.2 113.3" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.50"/>
+<path d="M17.0 119.4 L45.4 101.2" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.48"/>
+<path d="M24.0 106.8 L51.5 89.2" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.46"/>
+<path d="M31.0 94.2 L57.7 77.2" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.43"/>
+<path d="M38.0 81.6 L63.8 65.1" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.41"/>
+<path d="M45.0 69.0 L69.9 53.0" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.39"/>
+<path d="M52.0 56.4 L76.1 41.0" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.37"/>
+<path d="M59.0 43.8 L82.2 29.0" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+<path d="M66.0 31.2 L88.4 16.9" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.32"/>
+<path d="M73.0 18.6 L94.5 4.8" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.30"/>
+<path d="M80.0 6.0 L100.6 -7.2" stroke="#76787e" stroke-width="1" stroke-linecap="round" opacity="0.28"/>
+<path d="M9 133 C 22 108 40 76 58 40 C 65 27 71 15 76 4" stroke="#6d6f75" stroke-width="1.3" fill="none" opacity=".55"/>
+  <path d="M4 138 C 16 148 34 152 52 144" stroke="url(#feg)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+</g>
+</svg>
